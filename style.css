@@ -1,0 +1,204 @@
+body{
+    background-color: #e4F9F5;
+}
+p{
+    display:flex;
+    justify-content: center;
+    font-size:20px;
+}
+
+h1{
+   display:flex;
+   justify-content: center;
+   color: #038d6b;
+}
+
+h2{
+    display:flex;
+   justify-content: center;
+   color: #038d6b;
+}
+
+#sousTitres1{
+    display:flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#sousTitres2{
+    display:flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+#navBar{
+    position:fixed;
+    background-color:transparent;
+    box-shadow: 0 2px 10px rgba(0,0,0,.5);
+    top: 0;
+    left:0;
+    width: 100%;
+    overflow: hidden;
+    z-index:5;
+}
+#navBar a{
+    position:relative;
+    left:25%;
+    
+    color: #038d6b;
+    font-size: 40px;
+    padding:20px;
+    text-decoration: none;
+    
+}
+#navBar a:active{
+color: black;
+}
+
+
+
+
+.Accueil #lienAccueil{
+    position:relative;
+    top:0px;
+}
+.Accueil h1{
+    position:relative;
+    top:150px;
+    font-size: 45px;
+   
+}
+ .Accueil h2{
+    position:relative;
+    top:150px;
+    font-size:35px;
+   
+ }
+.Accueil #imageFond{
+    
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1; 
+    width:100%
+}
+.Accueil a{
+  display:flex;
+  justify-content:center;
+  position:relative;
+  top:200px;
+  color:yellow;
+}
+.Accueil a:hover{
+    color:red;
+}
+.Accueil #avatar{
+    display:flex;
+  justify-content:center;
+    position:relative;
+    top:750px;
+    left: 670px;
+    width:170px;
+}
+.Accueil #sousTitres1{
+    position:relative;
+    top:800px;
+}
+.Accueil p{
+    position:relative;
+    top:800px;
+}
+
+ 
+
+
+
+
+.Competences #lienCompetences{
+    position:relative;
+    top:800px;
+}
+.Competences #sousTitres1{
+    position:relative;
+    top:1000px;
+}
+.Competences #sousTitres2{
+    position:relative;
+    top:1000px;
+    right:70px;
+}
+.Competences #gif{
+    position:relative;
+    left: 5px;
+    
+}
+.Competences p{
+    position:relative;
+    top:1000px;
+}
+
+
+
+
+
+
+
+
+
+.Accueil #lienContacte{
+    
+}
+.Contacte h1{
+    position:relative;
+    top:1200px;
+}
+.Contacte p{
+    position:relative;
+    top: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#menuBas{
+    width:100%;
+    height:150px;
+    background-color: #66BFBF;
+    position:relative;
+    bottom:0px;
+    left:0px;
+}
+
+#menuBas a{
+    position:relative;
+    
+    left:32%;
+    
+    color: #038d6b;
+    font-size: 40px;
+    padding:20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

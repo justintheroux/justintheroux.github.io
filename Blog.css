@@ -11,3 +11,62 @@ li{
    padding: 10px; color: blue;
    
 }
+
+
+#nav{
+    position:fixed;
+    top:40%;
+    left:-3%;
+    border : thick solid rgb(0, 95, 86);
+    border-width: 5px;
+    border-radius: 50px;
+    width:200px;
+    height: 100px;
+    background-color: rgba(0, 128, 128, 0.664);
+    z-index:10;
+}
+#nav a{
+position:relative;
+left:80px;
+top:10px;
+color: rgb(0, 59, 59);
+}
+#nav a:hover{
+    color:white;
+    }
+
+
+.container{
+   
+   
+    border : thick solid gray;
+    border-width: 20px;
+    
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto ;
+    width:40%;
+    height: 90%;
+    
+}
+.container p{
+padding-left:20px ;
+padding-right:20px ;
+
+}
+.container h2{
+    padding-left:20px ;
+    color: rgb(124, 189, 255);
+}
+.container h1{
+    padding-left:20px ;
+    font-size: 25px;
+    color: rgb(0, 0, 46);
+    }
+.container #paragraphe1{
+    border-left: solid 5px rgb(180, 180, 180);
+    position:relative;
+    left:20px;
+    padding:5px;
+    padding-right:20px ;
+}
